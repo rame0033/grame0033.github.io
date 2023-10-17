@@ -6,6 +6,7 @@ Shortcut for adding the comment is command or ctrl + /
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: darkslategrey;
+    background-image: url(../Images/white_brick_wall.png);
 }
 
 h1{
@@ -34,7 +35,18 @@ text-decoration: none;
 /* Selecting element with ID value */
 /* As a best practice, avoid using ID for styles */
 #treatoftheweek{
-    background-color: cadetblue;
+    /* color image repeat position-x position-y */
+    background: cadetblue url(../Images/bread.jpg) no-repeat center;
+    /* background-size  */
+    background-size: cover;
+    font-size: 1.25rem;
+    /* 16px * 1.25rem=20px */
+    padding: 1em;
+    /* padding pushes the element away from the walls */
+    /* 1em*20px(element font size)=20px*/
+    width: 50%;
+    height: 100vh;
+    /* height is 100% of the browser size and it is dynamic. */
 }
 
 /* Selecting HTML elements with class name */
@@ -55,6 +67,11 @@ text-decoration: none;
 /* Direct child selector - will only select direct child of the parent */
 article>p{
     font-size: 24px;
+    /* CSS Typography properties */
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: lowercase;
+    text-align: center;
 }
 
 /* Adjacent sibling selector - Selects the element that is the very next sibling to the selected element, IF any exist.*/
