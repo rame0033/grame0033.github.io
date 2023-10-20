@@ -1,50 +1,51 @@
 /* 
-This is a CSS Comment
-Shortcut for adding the comment is command or ctrl + /
+This is a CSS comment
+Shorcut for adding the comment is command/ctrl + / 
 */
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    color: darkslategrey;
-    background-image: url(../Images/white_brick_wall.png);
+    color: darkslategray;
+    background-image: url(../images/white_brick_wall.png);
 }
-
 /* Box model example */
-section p{
-width: 50%;
-/* single value= top/bottom/left/right */
-/* two values= first value = top/bottom, second value = left/right */
-padding: 1em .5em;
-/* top right bottom left */
-margin:-1em 2em 2em 2em;
+section p {
+    width: 50%;
+    /* single value = top/bottom/left/right */
+    /* 2 values = first value =top/bottom, second value = left/right */
+    padding: 1em .5em;
+    /* top right bottom left */
+    margin: -1em 2em 2em 2em;
+
 }
 
-.container{
-    /* Create a container containing everything inside the body tag */
+.container {
+    /* create a container containing everything inside the body tag */
     max-width: 1200px;
-    margin:0 auto; 
+    margin: 0 auto;
 }
 
-img{
-    width:100%;
+img {
+    width: 100%;
 }
 
-h1{
+h1 {
     color: cadetblue;
 }
-p{
+
+p {
     background-color: antiquewhite;
 }
 
-/* 
-Selecting multiple elements */
+/* Selecting multiple elements */
 h1, h2, h3, h4 {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
-/* Selecting child elements */
-/* Remove the bullets from the nav but keep on merch and ingredients  */
-nav ul{
+/* selecting child elements */
+/* remove the bullets from the nav but keep bullets on merch and ingredients */
+
+nav ul {
     list-style: none;
 }
 
@@ -54,31 +55,34 @@ nav ul li {
     padding: 1em;
     box-sizing: border-box;
 }
-/* Selecting child elements multiple levels */
+
+/* selecting child elements multiple levels */
 nav ul a {
-color: darkslategray;
-text-decoration: none;
+    display: block;
+    color: darkslategray;
+    text-decoration: none;
 }
 /* Selecting element with ID value */
 /* As a best practice, avoid using ID for styles */
-#treatoftheweek{
-    /* color image repeat position-x position-y */
-    background: cadetblue url(../Images/bread.jpg) no-repeat center;
-    /* background-size  */
+#treatoftheweek {
+    background: cadetblue url(../images/bread.jpg)
+    no-repeat center;
+    /* backgrouund-size */
     background-size: cover;
     font-size: 1.25rem;
-    /* 16px * 1.25rem=20px */
+    /* 16px *1.25 = 20px */
+    /* padding pushes away the element away from the walls */
     padding: 1em;
-    /* padding pushes the element away from the walls */
-    /* 1em*20px(element font size)=20px*/
+    /* 1em * 20px (element font size) = 20px */
     width: 50%;
-    height: 100vh;
-    /* height is 100% of the browser size and it is dynamic. */
+    /* height is 100% of the browser size and it is dynamic */
+    /* height: 100vh; */
 }
 
 /* Selecting HTML elements with class name */
-.blue-link{
-    padding: 1.5em; 
+.blue-link {
+    /* color image repeat position-x position-y */
+    padding: 1.5em;
     width: 300px;
     display: block;
     background-color: darkslategray;
@@ -86,128 +90,132 @@ text-decoration: none;
     text-decoration: none;
 }
 
-.large-text{
+.large-text {
     font-size: 24px;
 }
 
-/* Example of float */
+/* example of float */
 article,
-aside {
-    width:80%
-    background-color: rgba (255,255,255,0.6);
-    border:1px solid black;
-    padding: 1.5rem;
-    float:left;
-}
-
 aside{
-  width:20%;  
+    width: 80%;
+    background-color: rgba( 255, 255, 255, 0.6);
+    border: 1px solid black;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    float: left;
 }
 
-/* Clear floats from the section */
+aside {
+    width: 20%;
+}
 
+/* clear floats from the section */
 section{
     clear: both;
 }
 
-.white-text{
+.white-text {
     color: antiquewhite;
 }
+
 /* Combinators */
-/* Direct child selector - will only select direct child of the parent */
-article>p{
+/* Direct child Selector - will only select direct child of the parents  */
+article>p {
     font-size: 24px;
-    /* CSS Typography properties */
+
+    /* CSS typography properties */
     font-weight: bold;
     line-height: 1.5;
     text-transform: lowercase;
     text-align: center;
 }
 
-/* Adjacent sibling selector - Selects the element that is the very next sibling to the selected element, IF any exist.*/
-h3+ul{
+/* Adjacent sibling selector - selects the element that is the very next sibling to the selected, IF any exist */
+h3+ul {
     border: 1px solid black;
 }
+
 /* Sibling selector */
 h3~p {
-text-transform: uppercase;
+    text-transform: uppercase;
 }
 
-/* Attribute selector */
-[href="#treatoftheweek"]{
+/* Attribute Selector */
+[href="#treatoftheweek"] {
     font-weight: bold;
 }
-[src$=".jpg"]{
+
+[src$=".jpg"] {
     border: 4px solid darkslategray;
 }
 
-/* pseudo classes */
-/* styling the navigation */
-nav ul a, 
+/* Psuedo classes */
+/* Styling the navigation */
+nav ul a,
 nav ul a:link,
 nav ul a:visited {
-background-color: antiquewhite;
-/* horicontal, vertical, blur, spread, color */
-box-shadow:-2px 2px 4px 2px #000;
+    background-color: antiquewhite;
+    /* horizontal, vertical, blur, spread, color */
+    box-shadow: -2px 2px 4px 2px #000;
 }
-/* Add class of current to HTML home link after adding hover and focus*/
 
+/* add class of current to HTML home link after adding hover and focus */
 nav ul .current,
 nav ul a:hover,
-nav ul a:focus{
+nav ul a:focus {
     text-decoration: underline;
 }
 
-nav ul a:active{
+nav ul a:active {
     box-shadow: 0 0 4px 2px black;
 }
 
-/* first child and last child */
-aside ul li:first-child{
+/* first child and last child*/
+aside ul li:first-child {
     font-weight: bold;
 }
 
-section ol li:last-child{
+section ol li:last-child {
     font-weight: bold;
 }
 
-/* Styling a table */
-table{
+/* styling a table */
+table {
     border-collapse: collapse;
 }
 
-/* nth child selectors - even and odd */
-tbody tr:nth-child(even){
+/* nth-child selector - even/odd */
+tbody tr:nth-child(even) {
     background-color: #d5836c;
 }
 
-/* using the nth child with n */
-/* where the n is 0,1,2,3 until the number of elements end */
-
-table th:nth-child(n), 
-table td:nth-child(n){
+/* Using nth-child with n */
+/* where n is 0,1,2,3 until the number of elements end */
+table th:nth-child(n),
+table td:nth-child(n) {
     border: 1px solid black;
 }
 
-/* using a formula in nth-child selectors */
-/* 1,3,5,7... */
-table td:nth-child(2n+1){
-    background-color: rgba(0, 0, 0, 0.2);
+/* Using formula in nth-child selectors */
+/* 1,3,5,7 */
+table td:nth-child(2n+1) {
+    background-color: rgba( 0, 0, 0, 0.2);
 }
 
 /* CSS Specificity */
-/* Formula: inline style, ID, class, tag-name*/
-/*                    0    0    0        0   */
-
-footer{
+/* formula: inline style, ID, class, tag-name */
+/*                0        0     0      0               */
+/* 0001 */
+footer {
     background-color: aqua;
 }
-
-footer{
+/* 0002 */
+body footer {
     background-color: red;
 }
 
-footer.site-footer{
+/* 0011 */
+footer.site-footer {
     background-color: antiquewhite;
 }
 
