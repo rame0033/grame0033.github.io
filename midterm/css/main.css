@@ -9,33 +9,32 @@ body {
 .full-height-bg {
     /* background color of navigation down to footer */
     max-height: 1555px;
-    width: 65%;
-    margin: 0 auto;
+    width: 60%;
+    margin:0 auto;
     background: #d0f9f4;
 }
 
-#wrapper {
+#wrapper{
     max-width: 960px;
     max-height: 300px;
     background-color: #aad4cf;
     padding: 50px;
 }
 
-header {
+header{
     height: 300px;
     background-image: url(../images/lone-starfish-wide.jpg);
-    padding: 4px;
+    padding:4px;
 }
 
-header h1 {
+header h1{
     text-transform: capitalize;
     text-align: center;
-    color: white;
-    font-size: 50px;
-    font-weight: lighter;
+    color:white;
+    font-size:50px;
+    font-weight:lighter;
     line-height: 250px;
 }
-
 nav ul {
     list-style: none;
     text-transform: uppercase;
@@ -76,7 +75,7 @@ nav ul a:hover {
     width: 270px;
     height: 270px;
     float: left;
-    padding: 10px;
+    padding: 5px;
 }
 
 .container2 {
@@ -85,16 +84,16 @@ nav ul a:hover {
     margin: 0 auto;
 }
 
-.container3 {
+.container3 { 
     /* Form */
     max-width: 850px;
     margin: 0 auto;
     border: solid black;
-    padding: 10px;
+    padding: 5px;
     padding-bottom: 10px;
 }
 
-label {
+label { 
     /* "Your Name..." */
     display: block;
     margin-top: 5px;
@@ -102,10 +101,10 @@ label {
 }
 
 input,
-textarea {
+textarea { 
     display: inline-block;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
@@ -136,7 +135,7 @@ input[type='radio'] {
     display: block;
     background-color: transparent;
     border: solid black;
-    padding: 15px;
+    padding: 10px;
     cursor: pointer;
     font-size: 16px;
     margin-top: 20px;
