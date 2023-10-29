@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: #aad4cf;
+}
+
+.full-height-bg {
+    /* background color of navigation down to footer */
+    max-height: 1555px;
+    width: 60%;
+    margin: 0 auto;
+    background: #d0f9f4;
+}
+
+#wrapper {
+    max-width: 960px;
+    max-height: 300px;
+    background-color: #aad4cf;
+    padding: 50px;
+}
+
+header {
+    height: 300px;
+    background-image: url(../images/lone-starfish-wide.jpg);
+    padding: 4px;
+}
+
+header h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+    line-height: 250px;
+}
+
+nav ul {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0%;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 32%;
+    border-left: 1px solid black;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul a {
+    display: block;
+    color: darkslategray;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+}
+
+
+.container1 {
+    /* "Life of a Starfish" */
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#starfish {
+    width: 270px;
+    height: 270px;
+    float: left;
+    padding: 5px;
+}
+
+.container2 {
+    /* "Facts about starfish" */
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.container3 {
+    /* Form */
+    max-width: 850px;
+    margin: 0 auto;
+    border: solid black;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+label {
+    /* "Your Name..." */
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    /* "Message" text-box */
+    height: 100px;
+}
+
+.radio-group label {
+    display: inline;
+    margin-left: 1px;
+}
+
+.radio-group {
+    display: inline-block;
+    gap: 5px;
+    margin-top: 2px;
+}
+
+input[type='radio'] {
+    width: 15px;
+    height: 15px;
+}
+
+.container3 button {
+    /* Send button */
+    display: block;
+    background-color: transparent;
+    border: solid black;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+footer.site-footer {
+    max-width: 850px;
+    margin: auto;
+    text-align: right;
+    padding: 10px;
+}
