@@ -24,6 +24,8 @@ body {
 header{
     height: 300px;
     background-image: url(../images/lone-starfish-wide.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
     padding:4px;
 }
 
