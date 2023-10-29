@@ -9,7 +9,7 @@ body {
 .full-height-bg {
     /* background color of navigation down to footer */
     max-height: 1555px;
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     background: #d0f9f4;
 }
@@ -76,7 +76,7 @@ nav ul a:hover {
     width: 270px;
     height: 270px;
     float: left;
-    padding: 5px;
+    padding: 10px;
 }
 
 .container2 {
@@ -90,7 +90,7 @@ nav ul a:hover {
     max-width: 850px;
     margin: 0 auto;
     border: solid black;
-    padding: 5px;
+    padding: 10px;
     padding-bottom: 10px;
 }
 
@@ -105,7 +105,7 @@ input,
 textarea {
     display: inline-block;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
@@ -136,7 +136,7 @@ input[type='radio'] {
     display: block;
     background-color: transparent;
     border: solid black;
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
     font-size: 16px;
     margin-top: 20px;
