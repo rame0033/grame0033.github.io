@@ -19,23 +19,30 @@ body {
     max-height: 300px;
     background-color: #aad4cf;
     padding: 50px;
+    z-index:-5;
 }
 
 header{
-    height: 300px;
-    background-image: url(../images/lone-starfish-wide.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
-    padding:4px;
+    position:relative;
 }
 
-header h1{
-    text-transform: capitalize;
-    text-align: center;
-    color:white;
-    font-size:50px;
-    font-weight:lighter;
-    line-height: 250px;
+h1 {
+ position:relative;
+ margin-top:100px;
+ text-transform: capitalize;
+ text-align: center;
+ color:white;
+ font-size:50px;
+ font-weight:lighter;
+ line-height:100px;
+ z-index: 2;
+}
+
+.wide-image {
+    position:relative;
+    margin-top: -240px;
+    z-index:1;
+    overflow-x: hidden;
 }
 
 nav ul {
