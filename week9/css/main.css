@@ -1,5 +1,9 @@
+/************************************* 
+            Custom Styles
+**************************************/
+/******* Global Styles ********/
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif ;
     font-size: 14px;
     box-sizing: border-box;
 }
@@ -26,14 +30,13 @@ img {
 }
 
 /* loVe HAte: Link, Visited. Hover/Focus, Active */
-
 a,
 a:link,
 a:visited {
-    color: inherit;
+    color:inherit;
 }
 
-a:hover,
+a:hover, 
 a:focus {
     color: #00add8;
 }
@@ -47,8 +50,7 @@ h5 {
     margin: 1em 0 0.5em;
 }
 
-/* to ensure that the font sizes are portionate to each other and not random values: www.modularscale.com  */
-
+/* To ensure that font sizes are portionate to each other and not random values: www.modularscale.com */
 h1 {
     font-size: 5.063rem;
 }
@@ -56,16 +58,13 @@ h1 {
 h2 {
     font-size: 3.375rem;
 }
-
 h3 {
     font-size: 2.25rem;
 }
-
 h4 {
     font-size: 1.5rem;
 }
-
-h5 {
+h5{
     font-size: 1rem;
 }
 
@@ -79,12 +78,10 @@ p {
     padding: 1em;
 }
 
-/************ HEADER ************/
-
+/********** HEADER *********/
 .mobile-logo {
     max-width: 150px;
 }
-
 .desktop-logo {
     display: none;
 }
@@ -102,24 +99,21 @@ p {
     text-transform: uppercase;
 }
 
-/******** Mobile App Section ********/
-
+/*********** Mobile App Section ************/
 .btn {
     text-decoration: none;
-    display: inline-block;
+    display: inline-block;  
     padding: 20px;
     border: 1px solid grey;
     border-radius: 6px;
 }
-
 .btn:hover,
 .btn:focus {
     background-color: #00add8;
     color: inherit;
 }
 
-/********** FOOTER STYLES ***********/
-
+/* ********* FOOTER STYLES ************ */
 .site-footer {
     margin-top: 20px;
     padding: 20px 0;
@@ -130,39 +124,33 @@ p {
     text-align: right;
 }
 
-/*********************
-    Desktop Styles
-***********************/
-
+/********************************** 
+            Desktop Styles
+***********************************/
 @media screen and (min-width: 600px) {
     html {
         font-size: 16px;
     }
-
     .mobile-logo {
         display: none;
     }
-
     .desktop-logo {
         display: inline-block;
         max-width: 300px;
     }
-
     .banner {
         background-image: url(../images/smog-desktop.jpg);
     }
-
     .banner h1 {
         color: white;
     }
 
-    /********** App Setion ***********/
-    .app-img {
+    /*********** App Section **********/
+    .app img  {
         width: 40%;
         float: left;
         margin-right: 1em;
     }
-
     .app .btn {
         float: right;
     }
