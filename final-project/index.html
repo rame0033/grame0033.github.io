@@ -15,10 +15,10 @@
             <nav>
                 <ul>
                     <li><a href="index.html"> Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#our-services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <!-- Search bar -->
@@ -26,10 +26,9 @@
                 <div class="search">
                     <input type="text" class="searchTerm" placeholder="Search">
                     <!-- Adding the "magnifying glass icon" -->
-                    <button type="submit"><i class="fa fa-search">
-                            <link rel="stylesheet"
-                                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
-                        </i></button>
+                    <button type="submit"><span class="material-symbols-outlined">
+                            &#xe8b6;
+                        </span></button>
                 </div>
             </div>
             <!-- The main banner -->
@@ -48,7 +47,7 @@
     </header>
     <main>
         <!-- The "about" section (solid background color) -->
-        <div class="main-about">
+        <div class="main-about" id="about-us">
             <img src="images/about-us.jpg" class="im-about" alt="About Us">
             <div class="about-con">
                 <h1>About Us</h1>
@@ -62,7 +61,8 @@
             </div>
         </div>
         <!-- "About" section ends -->
-        <section class="serv-main"><!-- List of services (Grid section cards on desktop) -->
+        <section class="serv-main" id="our-services">
+            <!-- List of services (Grid section cards on desktop) -->
             <h2>Our Services</h2>
             <!-- First two cards on top row -->
             <div class="row1 card 1">
@@ -73,9 +73,10 @@
                         vulputate imperdiet risus pulvinar placerat. Cras eget consequat risus, nec ultrices velit.
                         Donec
                         felis ipsum, semper at dictum nec, volutpat ac sapien. Proin commodo lobortis molestie.</p>
-                    <button type="button">Digital Plans &#9654;</button>
+                        <a class="plansbtn" href="#">Digital Plans &#9654;</a>  
                 </div>
-            </div><!-- Closing the card -->
+                <!-- Closing the card -->
+            </div>
             <div class="row1 card 2">
                 <img src="images/marketing.jpg" alt="Marketing">
                 <div class="card-text">
@@ -84,9 +85,10 @@
                         vulputate imperdiet risus pulvinar placerat. Cras eget consequat risus, nec ultrices velit.
                         Donec
                         felis ipsum, semper at dictum nec, volutpat ac sapien. Proin commodo lobortis molestie.</p>
-                    <button type="button">Digital Plans &#9654;</button>
+                        <a class="plansbtn" href="#">Marketing Plans &#9654;</a>  
                 </div>
-            </div><!-- Closing the card -->
+                <!-- Closing the card -->
+            </div>
             <!-- First row ends -->
             <!-- Second row cards -->
             <div class="row2 card 1">
@@ -97,10 +99,11 @@
                         vulputate imperdiet risus pulvinar placerat. Cras eget consequat risus, nec ultrices velit.
                         Donec
                         felis ipsum, semper at dictum nec, volutpat ac sapien. Proin commodo lobortis molestie.</p>
-                    <button type="button">Video Plans &#9654;</button>
+                        <a class="plansbtn" href="#">Video Plans &#9654;</a>  
                 </div>
-            </div><!-- Closing the card -->
-            <div class="row2 card 2">
+                <!-- Closing the card -->
+            </div>
+            <div class="row2card">
                 <img src="images/web.jpg" alt="Web Development">
                 <div class="card-text">
                     <h3>Web Development</h3>
@@ -108,20 +111,22 @@
                         vulputate imperdiet risus pulvinar placerat. Cras eget consequat risus, nec ultrices velit.
                         Donec
                         felis ipsum, semper at dictum nec, volutpat ac sapien. Proin commodo lobortis molestie.</p>
-                    <button type="button">Web Plans &#9654;</button>
+                        <a class="plansbtn" href="#">Web Plans &#9654;</a>  
                 </div>
-            </div><!-- Closing the card -->
-            <div class="row2 card 3">
-                <img src="images/print.jpg" alt="Web Development">
+                <!-- Closing the card -->
+            </div>
+            <div class="row2card">
+                <img src="images/print.jpg" alt="Print">
                 <div class="card-text">
                     <h3>Print</h3>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non imperdiet neque. Vestibulum
                         vulputate imperdiet risus pulvinar placerat. Cras eget consequat risus, nec ultrices velit.
                         Donec
                         felis ipsum, semper at dictum nec, volutpat ac sapien. Proin commodo lobortis molestie.</p>
-                    <button type="button">Print Plans &#9654;</button>
+                        <a class="plansbtn" href="#">Print Plans &#9654;</a>  
                 </div>
-            </div><!-- Closing the card -->
+                <!-- Closing the card -->
+            </div>
             <!-- second row ends -->
         </section>
         <!-- Grid section (service cards) ends -->
@@ -135,7 +140,7 @@
                 <button type="button" class="connectbtn">Learn More &#9654;</button>
             </div>
         </section>
-        <section class="team-wrap">
+        <section class="team-wrap" id="team">
             <h2>Our Team</h2>
             <div class="john-card">
                 <img src="images/john.jpg" alt="John Doe" class="imgjohn"> <!-- Main picture of John -->
@@ -159,7 +164,7 @@
             </div>
         </section> <!-- Team section ends -->
         <!-- Wrapper for contact section containing form, operating hours, and map -->
-        <section class="contact-wrap">
+        <section class="contact-wrap" id="contact">
             <!-- Form section -->
             <div class="form-nav">
                 <h2>Contact Us!</h2>
@@ -178,11 +183,12 @@
                         <label for="Message">Message</label>
                         <textarea name="Message" id="Message"></textarea>
                     </div>
-                    <button type="button">Send</button>
+                    <button type="submit">Send</button>
                 </form>
-            </div> <!-- form section ends -->
+            </div>
+            <!-- form section ends -->
+            <!-- Table for office hours -->
             <div class="hour-table">
-                <!-- Table for office hours -->
                 <table>
                     <caption>Hours of Operation</caption>
                     <thead>
@@ -203,20 +209,21 @@
                     </tbody>
                 </table>
             </div><!-- Table ends -->
+            <!-- google maps shown here -->
             <div class="form-nav">
-                <!-- google maps shown here -->
                 <h3> Find Us </h3>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9022593445607!2d-75.75617757102043!3d45.350785254346235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1700358925663!5m2!1sen!2sca">
                 </iframe>
-            </div><!-- Maps section ends -->
+            </div>
+            <!-- Maps section ends -->
         </section>
     </main>
     <footer class="site-footer">
         <p class="copy">
-        &copy; Copyright Three Star Media, 2023</p>
+            &copy; Copyright Three Star Media, 2023</p>
         <p class="attribute">
-        All images are taken from <a href="https://unsplash.com/" class="orange-link" target="_blank">Unsplash</a></li>
+            All images are taken from <a href="https://unsplash.com/" class="orange-link" target="_blank">Unsplash</a>
         </p>
     </footer>
 </body>
