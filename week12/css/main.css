@@ -1,0 +1,31 @@
+/* 
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header, main{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+h1,h2{
+    font-family: 'Pacifico', cursive;
+}
+
+.fa-magnifying-glass{
+    font-size: 6rem;
+    color:darkorchid;
+}
+
+.maps iframe{
+    width:100%;
+    max-width: 1080px;
+    margin:0 auto;
+    display:block;
+    /* To see if margin 0 auto works, change display to block */
+}
