@@ -24,7 +24,8 @@ h1,h2{
 
 .maps iframe{
     width:100%;
-    max-width: 1080px;
+    height:500px;
+    width: 800px;
     margin:0 auto;
     display:block;
     /* To see if margin 0 auto works, change display to block */
