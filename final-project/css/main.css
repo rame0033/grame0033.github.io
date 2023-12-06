@@ -18,9 +18,8 @@ Font sizing based from https://www.modularscale.com/
 *******************************************************/
 
 .welcome-txt h1 {
-    font-size: 5.063em;
-    padding: 20px;
-
+    font-size: 4.624em;
+    padding: 10px;
 }
 
 .about-con h1,
@@ -127,7 +126,7 @@ Search Bar portion
     background-size: cover;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
 }
 
 /*Container for the welcome text content*/
@@ -139,13 +138,12 @@ Search Bar portion
     background-color: rgba(0, 0, 0, 0.6);
     padding-bottom: 70px;
     max-width: 100vw;
-    text-overflow: inherit;
 }
 
 /*Spacing for the "welcome" paragraph*/
 .welcome-txt p {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 15px;
+    padding-left: 10px;
     padding-bottom: 70px;
     font-size: 1em;
     line-height: 1.5em;
@@ -486,6 +484,11 @@ Desktop Styles
         height:110vh;
     }
 
+    .welcome-txt h1 {
+        font-size: 5.063em;
+        padding: 10px;
+    }
+
     /*Styling for the welcome text content - desktop*/
     .welcome-txt {
         position: absolute;
@@ -591,7 +594,7 @@ Desktop Styles
     Contact desktop style
     **********************/
 
-    /*Grid property on the desktop style*/
+    /*Grid property on the contact - desktop style*/
     .contact-wrap {
         display: grid;
         grid-template-columns: repeat(2, auto);
@@ -620,7 +623,7 @@ Desktop Styles
         height: 63vh;
     }
 
-    /*Separating the table as a whole block*/
+    /*Separating the table div as a whole block*/
     .contact-wrap .hour-table {
         grid-column: 1/6;
         grid-row: 3/4;
