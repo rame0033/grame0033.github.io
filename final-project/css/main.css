@@ -449,14 +449,14 @@ footer a {
 /**************
 Desktop Styles
 **************/
-@media screen and (min-width: 760px) {
+ @media screen and (min-width: 760px) {
 
     /************************
     Navigation desktop style
     ************************/
 
     .logo-wrap {
-        background-color: #222;
+        background-color: transparent;
     }
 
     .mainnav-container {
@@ -543,7 +543,7 @@ Desktop Styles
     /*Applying grid layout on the cards*/
     .grid-cards {
         display: grid;
-        grid-template-columns: repeat(6, 2fr);
+        grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(2, auto);
         grid-template-areas:
             "ser1 ser1 ser1 ser2 ser2 ser2"
@@ -630,4 +630,4 @@ Desktop Styles
         padding-top: 5px;
         padding-bottom: 20px;
     }
-}
+} 
