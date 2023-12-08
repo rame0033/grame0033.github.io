@@ -251,7 +251,7 @@ Our Services section
     text-decoration: none;
     text-align: center;
     padding: 40px;
-    width:fit-content;
+    width: fit-content;
 }
 
 /***********************
@@ -264,7 +264,7 @@ Our Services section
     background-size: cover;
     position: relative;
     width: 100%;
-    height:40vh;
+    height: 40vh;
 }
 
 /*Styles for the "vision" text*/
@@ -306,7 +306,7 @@ Our Team Section
 /*Styling the separate cards for teams*/
 .cards-team img {
     width: 100%;
-    height:fit-content;
+    height: fit-content;
 }
 
 .john-card,
@@ -449,7 +449,7 @@ footer a {
 /**************
 Desktop Styles
 **************/
- @media screen and (min-width: 760px) {
+@media screen and (min-width: 760px) {
 
     /************************
     Navigation desktop style
@@ -480,8 +480,8 @@ Desktop Styles
         width: 10vw;
     }
 
-    .welcome-container{
-        height:110vh;
+    .welcome-container {
+        height: 110vh;
     }
 
     .welcome-txt h1 {
@@ -519,7 +519,7 @@ Desktop Styles
     /*Placing about image on the left side of the screen*/
     .main-about img {
         width: 40vw;
-        height:fit-content;
+        height: fit-content;
         float: left;
     }
 
@@ -630,4 +630,4 @@ Desktop Styles
         padding-top: 5px;
         padding-bottom: 20px;
     }
-} 
+}
