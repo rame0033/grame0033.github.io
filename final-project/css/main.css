@@ -120,13 +120,6 @@ Search Bar portion
     font-size: 20px;
 }
 
-/*Fixing the font awesome css error by 0 value*/
-.fa-rotate-by {
-    -webkit-transform: rotate(0);
-    -ms-transform: rotate(0);
-    transform: rotate(0);
-  }
-
 /*****The Main Banner****/
 .welcome-container {
     background: #c78c06 url(../images/main-banner.jpg) no-repeat center;
