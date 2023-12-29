@@ -4,16 +4,20 @@ body{
     height:95vh;
 }
 
+/* Setting alignment for the main card */
 .maincard{
     max-width:400px;
     margin:85px auto;
 }
 
+/* Styling the main heading */
 .topcard{
     background: #2355f2 url(../images/Pattern.png) no-repeat;
     background-size: cover;
     border-radius: 10px 10px 0px 0px;
 }
+
+/* Styles for the top card heading */
 .topcard h1{
   font-family: 'Roboto';
   font-size:2em;
@@ -25,11 +29,15 @@ body{
   color: aliceblue;
 }
 
+
+/* Styling the second half portion of the card */
 .subcard{
     background-color: white;
     border-radius: 0px 0px 10px 10px;
+    padding-top: -10px;
 }
 
+/* Font styling for "Receive daily emails..." */
 .subcard h2{
    color:#6f6f6f;
    font-size: 1.05em;
@@ -38,6 +46,7 @@ body{
    text-align: center; 
 }
 
+/* Styling the form */
 .form{
     max-width: 350px;
     margin: 0 auto;
@@ -51,6 +60,7 @@ input{
     width: 215px;
 }
 
+/* Styling the subscribe button */
 button{
     font-family:'Roboto';
     color:white;
@@ -64,12 +74,18 @@ button{
     cursor: pointer;
 }
 
+/* Styling the font for form subtext */
 .spam{
     font-family: 'Roboto';
     color:#6f6f6f;
     padding: 10px 25px 20px;
 }
 
+/****************************
+Styling the testimonial part 
+****************************/
+
+/* Styling the profile */
 .profile{
 display: flex;
 margin:0 auto;
@@ -90,6 +106,8 @@ max-width: 200px;
     font-size:0.800em;
 }
 
+
+/* Styling the main quote for testimonial */
 .quote{
     font-family: 'Lato';
     color:#6f6f6f;
@@ -97,6 +115,7 @@ max-width: 200px;
     padding: 10px 20px 30px 20px;
 }
 
+/* Setting styles for bigger screens */
 @media screen and (min-width:1040px) {
     body{
         background: url(../images/Background.png) no-repeat;
