@@ -1,0 +1,152 @@
+/**************
+Global Styles
+***************/
+* {
+    background-color: #0a0a0b;
+}
+
+body{
+    padding:10px;
+}
+
+/* Styling the website navigation */
+.logo-nav {
+    display: flex;
+}
+
+.masthead {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-top: 20px;
+}
+
+/*Default font style for container paragraphs*/
+.welcomecontainer p,
+.context p,
+.aboutpar p,
+.contact p{
+    font-family: 'Lato', sans-serif;
+    color: #8c8c8c;
+    font-size: 1em;
+}
+
+/* Font styles for headings */
+
+.welcomecontainer h1{
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    font-size: 3.100em;
+}
+
+.partners h2,
+.aboutcont h2,
+.contact h2 {
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    font-size: 2.25em;
+    padding-bottom: 20px;
+}
+
+/* Styling website logo */
+.logo {
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    font-size: 2.25em;
+    float:left;
+    flex-grow: 2;
+}
+
+/* Alignment setting for the navigation wrap */
+.navwrap{
+    float: right;
+}
+
+/* Styling the nav-list */
+/* .nav-list {
+    display: flex;
+    padding-top: 15px;
+} */
+
+.nav-list {
+    display:none;
+}
+
+.nav-list li {
+    padding: 0px 10px 0px 10px;
+}
+
+.nav-list li a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #8c8c8c;
+    font-size: 1em;
+
+}
+
+/* Styling the welcome text */
+.welcomecontainer{
+    max-width: 1000px;
+    margin:0 auto;
+    padding:20px 0px;
+}
+
+.welcomecontainer p{
+    padding-top: 20px;;
+    line-height: 20px;;
+}
+
+/* Alignment setting for client logos */
+.clients{
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+.clients img{
+    width: 100px;
+    height:50px;
+}
+
+.clients ul {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+/*Styling the cards for yelp and sense*/
+.partners{
+    max-width:1000px;
+    margin: 0 auto;
+    padding:30px 0px;
+}
+
+/*Alignment setting for the cards*/
+.spense,
+.yelp {
+    width:100%;
+    margin: 0 auto;
+}
+
+.partners img{
+    width:100%;
+    margin: 0 auto;
+}
+
+/*Alignment setting for the cards texts*/
+.context{
+    padding: 30px 0px;
+}
+
+.context p{
+    line-height: 20px;
+}
+
+/* Styling the co founder part */
+.about{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.aboutpar p{
+    padding-top: 15px;
+    line-height: 30px;
+}
