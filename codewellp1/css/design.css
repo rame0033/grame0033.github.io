@@ -55,6 +55,11 @@ body {
     padding-top: 2px;
 }
 
+/* Hiding navigation by default */
+#nav-list {
+    display: none;
+}
+
 /* Styling the welcome text */
 .welcomecontainer {
     max-width: 1000px;
@@ -75,9 +80,8 @@ body {
 }
 
 .clients img {
-    width: 108px;
-    height: 54px;
-    padding: 3px 0px;
+    width: 130px;
+    height: 100px;
 }
 
 .clients ul {
@@ -174,15 +178,8 @@ body {
     padding: 0px 5px;
 }
 
-#nav-list {
-    display: none; /* Hide the menu by default */
-}
-
-@media screen and (max-width: 750px) {
-    #nav-list {
-        display: none; /* Show the menu on smaller screens */
-    }
-
+/* Styling the navigation for smaller screens */
+@media screen and (max-width:750px) {
     #nav-list a {
         display: block;
         width: 100%;
@@ -193,19 +190,29 @@ body {
         box-sizing: border-box;
         padding-top: 10px;
     }
+    
+    #toggle{
+        display: none;
+    }
 
-    #navwrap label {
-        display: inline-block;
+     label {
+        display: block;
+        cursor:pointer;
         font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-style: normal;
         font-weight: bold;
         color: #8c8c8c;
         font-size: 1.2em;
-        padding: 10px;
+        padding:10px;
     }
-
+    
+    #nav-list {
+        display: none;
+    }
+    
     #navwrap input:checked~#nav-list {
         display: block;
+        transition: ease .2s;
     }
 }
 
@@ -218,6 +225,10 @@ body {
         display: none;
     }
 
+    #toggle{
+        display: none;
+    }
+    
     #navwrap {
         width: 50%;
         background: none;
