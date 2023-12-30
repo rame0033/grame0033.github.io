@@ -76,11 +76,11 @@ body {
 .clients {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 40px 60px;
+    padding: 0px 60px;
 }
 
 .clients img {
-    width: 130px;
+    width: 111px;
     height: 100px;
 }
 
@@ -228,7 +228,7 @@ body {
     #toggle{
         display: none;
     }
-    
+
     #navwrap {
         width: 50%;
         background: none;
