@@ -71,7 +71,7 @@ header{
 
 .icon{
     font-size: 1.5em;
-    color: #212121;
+    color: white;
     cursor: pointer;
     display: none;
     right:0;
@@ -220,6 +220,15 @@ footer{
 
 /* Adding media query for tablet screen */
 @media screen and (max-width:1029px){
+    header{
+        background: black;
+    }
+
+    .logowrap img{
+        padding-right: 20px;
+        height:30px;
+        filter:invert(100%);
+    }
 
      /* Styling the hamburger and close icon */
      .icon{
@@ -245,10 +254,9 @@ footer{
         left:0;
         width: 100%;
         height:0;
-        background: rgba(0, 0, 0, 0.1);
+        background: black;
         transition: .3s ease;
         overflow: hidden;
-        text-shadow: #212121;
     }
 
     #check:checked~.navbar{
@@ -259,7 +267,7 @@ footer{
         display: block;
         text-align: center;
         padding:10px;
-        color:#212121;
+        color:white;
     }
 
     main{
