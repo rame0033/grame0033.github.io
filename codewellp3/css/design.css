@@ -1,0 +1,144 @@
+/*************
+Global Styles
+*************/
+
+body{
+    background-color: #f9f4e8;
+}
+
+h1,
+h2{
+    font-family: 'Playfair', serif;
+}
+
+a,
+p,
+button{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+a,
+p{
+    color:#565656;
+}
+
+/* Setting default margin and width */
+.masthead,
+main,
+footer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/****************
+   Header style
+*****************/
+.masthead{
+    padding:20px 10px 10px 10px;
+}
+
+.logowrap{
+    display: flex;
+}
+
+.logowrap img{
+    padding-right: 5px;
+    height:30px;
+}
+
+.logowrap p{
+    background:  linear-gradient(90deg, rgba(234,181,80,1) 25%, rgba(234,82,118,1) 65%);
+    border-radius: 20px;
+    padding:6px;
+    font-size: 0.700em;
+    color: #f9f4e8;
+    margin-top: 5px;
+}
+
+/************
+Main landing
+************/
+
+.imgwrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgwrap img{
+    width:500px;
+}
+
+/* Landing page text wrap */
+.textwrap{
+    padding:0px 10px;
+}
+
+/* Main heading */
+.maintxt h1{
+    font-size: 3.375em;
+    font-weight: bold;
+    padding:20px 0px;
+}
+
+/* Styling the main text first paragraph */
+.maintxt p{
+    line-height: 20px;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+/* Styling form*/
+
+/*input */
+input{
+    width:100%;
+    height:40px;
+    border: 1px solid #f9f4e8;
+    border-radius: 10px;
+    padding-bottom:10px;
+}
+
+/* Button */
+button{
+    color: #f9f4e8;
+    font-size: 1em;
+    width:100%;
+    height:40px;
+    background-color: #4977ea;
+    border: none;
+    border-radius: 10px;
+    margin-top:10px;
+}
+
+/* Spam text here */
+.spam{
+    display: flex;
+    padding-top: 10px;
+}
+
+.spam p{
+    padding: 5px;
+}
+
+/* Footer section */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.socmed{
+    flex-grow: 1;
+    padding-left:10px;
+    margin-top: 20px;;
+}
+
+.mainhelp{
+    display: flex;
+}
+
+.helptxt{
+    padding: 10px;
+}
