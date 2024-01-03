@@ -9,6 +9,23 @@ body{
     margin:0 auto;
 }
 
+p{
+    color: #656565;
+}
+
+h1,
+h2,
+h3{
+    font-weight: 600;
+}
+
+.card1 h1,
+.card2 h2,
+.card3 h2,
+.card4 h2{
+    font-size: 2.25em;
+} 
+
 /* Sizing for article images */
 main img,
 section img {
@@ -37,7 +54,8 @@ footer img{
 }
 
 .logowrap img {
-    padding-right: 20px;
+    margin-top: 6px;
+    margin-left: -30px;
     height: 30px;
 }
 
@@ -56,6 +74,7 @@ footer img{
 .icon {
     display: block;
     padding-top: 4px;
+    margin-right: -15px;
 }
 
 #check:checked~.icon #menu-icon {
@@ -106,9 +125,86 @@ nav > *:nth-of-type(4) {
     border-radius: 10px;
   }
   
+/* Styling the article cards */
 .card1,
 .card2,
 .card3,
 .card4{
-    display:grid;
+    display: block;
+    padding:20px 10px;
 }
+
+.card4{
+    padding-bottom: 50px;
+}
+
+/* Styling the writer's profile */
+.writer{
+    display: flex;
+    padding-top:16px;
+}
+
+.name{
+    padding-top:10px;
+    padding-left: 5px;;
+    line-height: 20px;
+}
+
+/* Styling for footer */
+footer{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 30px 0px;
+    background:rgb(221, 221, 221);
+}
+
+@media screen and (min-width:601px) {
+  
+   /* Footer styles */
+ footer{
+  background: none;
+  flex-flow: row wrap;
+  padding:5px 10px 10px;
+ }
+
+ .logo-footer{
+  flex-grow: 1;
+ }
+
+ .textwrap p{
+    font-size: 1.25em;
+ }
+
+}
+
+/* tablet-specific styles here */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    /* Cropping the image to 40% of height */
+   .mainimg {
+    width:100%;
+    height: 260px;
+    overflow: hidden;
+    border-radius: 10px;
+   }
+
+   .card1 .mainimg img,
+   .card3 .mainimg img{
+    margin-top: -76px;
+   }
+
+  }
+
+/* Desktop styles */
+@media screen and (min-width:1025px) {
+    
+    .card1 h1,
+    .card2 h2,
+    .card3 h2,
+    .card4 h2{
+        font-size: 3.375em;
+    }
+
+}  
+
