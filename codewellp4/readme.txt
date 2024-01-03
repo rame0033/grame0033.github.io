@@ -1,3 +1,3 @@
-Unifeed Blog Page
+Chirp Landing Page
 
-Courtesy of codewell.cc> Doing the blog page as practice for flex and grid.
+Courtesy of codewell.cc> Mostly doing practice for layouts, flex/grid and scrollable components.
