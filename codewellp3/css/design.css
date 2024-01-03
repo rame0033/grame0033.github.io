@@ -231,6 +231,7 @@ footer {
     /* Styling the hamburger and close icon */
     .icon {
         display: block;
+        padding-top: 4px;
     }
 
     #check:checked~.icon #menu-icon {
