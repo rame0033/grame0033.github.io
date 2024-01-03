@@ -1,0 +1,114 @@
+/************** 
+ Global Styles 
+**************/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+/* Sizing for article images */
+main img,
+section img {
+    width: 100%;
+}
+
+/* Sizing for avatar images */
+.avatar img{
+    width:55px;
+}
+
+/* Sizing for webpage logo */
+header img,
+footer img{
+    width:130px;
+}
+
+.masthead {
+    padding: 20px 30px;
+    display: flex;
+}
+
+.logowrap {
+    display: flex;
+    flex-grow: 1;
+}
+
+.logowrap img {
+    padding-right: 20px;
+    height: 30px;
+}
+
+.icon {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+    right: 0;
+}
+
+#check {
+    display: none;
+}
+
+/* Styling the hamburger and close icon */
+.icon {
+    display: block;
+    padding-top: 4px;
+}
+
+#check:checked~.icon #menu-icon {
+    display: none;
+}
+
+.icon #close {
+    display: none;
+}
+
+#check:checked~.icon #close {
+    display: block;
+}
+
+/* Styling the navigation bar on click */
+.navbar {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: white;
+    transition: .3s ease;
+    overflow: hidden;
+}
+
+#check:checked~.navbar {
+    height: 12rem;
+}
+
+.navbar a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+/* Hover and focus state */
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+/* Styling the fourth a of navigation */
+nav > *:nth-of-type(4) {
+    background-color: #ee7c0d;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+.card1,
+.card2,
+.card3,
+.card4{
+    display:grid;
+}
