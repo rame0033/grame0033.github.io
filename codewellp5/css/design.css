@@ -174,7 +174,7 @@ nav>*:nth-of-type(4) {
 .features {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 50px;
+    padding: 45px 23px 0px;
     display: grid;
     gap: 30px;
 }
@@ -486,10 +486,6 @@ footer {
         width: 237px;
     }
 
-    .features {
-        padding: 20px 30px;
-    }
-
     .testimonials h3 {
         padding: 50px;
     }
@@ -554,7 +550,6 @@ footer {
     
     /* Displaying grid property in features picture */
     .features{
-        padding-top:63px;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(3,auto);
         grid-template-areas: 
