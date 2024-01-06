@@ -55,14 +55,18 @@ span {
     padding: 10px;
 }
 
-body {
+body { 
+/* Grid positioning courtesy of @Blackpachamame*/
     padding: 10px;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    gap: 20px;
 }
 
 /* Alignment and style for the main card */
 main {
     max-width: 300px;
-    margin: 6vh auto 3vh;
     background-color: hsl(0, 0%, 100%);
     display: flex;
     padding: 10px;
