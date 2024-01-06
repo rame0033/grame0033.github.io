@@ -25,8 +25,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: (https://github.com/rame0033/rame0033.github.io/tree/main/front-end%20mentor%20p1)
-- Live Site URL: (https://rame0033.github.io/front-end%20mentor%20p1/)
+- Solution URL: ([https://github.com/rame0033/rame0033.github.io/tree/main/front-end%20mentor%20p1](https://github.com/rame0033/rame0033.github.io/tree/main/front-end_mentor_p1))
+- Live Site URL: ([https://rame0033.github.io/front-end%20mentor%20p1/](https://rame0033.github.io/front-end_mentor_p1/))
 
 ## My process
 
