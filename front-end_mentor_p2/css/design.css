@@ -1,46 +1,101 @@
-/*Global styles*/
-body{
-    font-family: 'Outfit', sans-serif;
-    background-color: hsl(212, 45%, 89%);
+/* Global style */
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree';
 }
 
-h1{
-    font-weight: 700;
+h1,
+h3,
+.profile p {
+    font-weight: 800;
+}
+
+.description a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
     font-size: 1.5em;
-    text-align: center;
-    padding:5px 20px 15px;
-    line-height: 1.8rem;
+    padding-bottom: 10px;
 }
 
-p{
-    font-weight: 400;
-    text-align: center;
-    padding: 5px 20px 30px;
-    line-height: 1.2rem;
-    color: hsl(220, 15%, 55%);
+.paragraph p {
+    color: hsl(0, 0%, 50%);
+    line-height: 1.3rem;
 }
 
-/* Setting the default alignment for the body */
-main,
-footer {
-    margin:6vh auto;
-    max-width: 400px;
-    text-align: center;
-    padding:0 20px;
-}
-
-main{
-    max-width:320px;
-    border-radius: 10px;
-    background-color: hsl(0, 0%, 100%);
-}
-
-/* Max-width setting for the qr code */
-img{
-    width:100%;
+/* Adding background to word "Learning" */
+h3 {
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 10px;
     border-radius: 5px;
+    margin-top: 1rem;
 }
 
-.main_img{
-    padding:30px 10px 15px;
+/* Adding line space in between h3, date, and article title */
+span {
+    line-height: 3rem;
+}
+
+/* Width and alignment for the image */
+.imgwrap img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Adding space between the image and card border */
+.imgwrap {
+    padding: 10px 10px 0px;
+}
+
+.description {
+    padding: 10px;
+}
+
+body {
+    padding: 10px;
+}
+
+/* Alignment and style for the main card */
+main {
+    max-width: 300px;
+    margin: 6vh auto 3vh;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px black;
+}
+
+/* Alignmant for the profile wrap */
+.profile {
+    display: flex;
+    padding: 15px 0px 0px;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px
+}
+
+.profile p {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    line-height: 20px;
+}
+
+/* Styling the hover state */
+.description a:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+main:hover {
+    box-shadow: 20px 20px black;
 }
