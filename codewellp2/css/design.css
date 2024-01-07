@@ -1,7 +1,10 @@
 body{
     background: url(../images/Background.png) no-repeat;
     background-size: cover;
-    height:95vh;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding:10px;
 }
 
 /* Setting alignment for the main card */
