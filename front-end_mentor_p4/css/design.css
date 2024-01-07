@@ -141,14 +141,15 @@ footer {
 
     .imgwrap {
         width: 50%;
+        margin-top:3vh;
     }
 
     /* Alignment setting for the text wrap */
     .text-wrap {
-        width: 35%;
+        width: 43%;
         padding-left: 5rem;
         align-items: flex-start;
-        margin-top: 2vh;
+        margin-top: 7vh;
     }
 
     .text-wrap h1,
@@ -162,7 +163,7 @@ footer {
     }
 
     .socmed {
-        margin-top: 0.5rem;
+        margin-top: 0.1rem;
         margin-right: 1rem;
     }
 }
