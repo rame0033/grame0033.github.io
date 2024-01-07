@@ -132,11 +132,13 @@ a:hover {
     color: hsl(178, 100%, 50%);
 }
 
+/* Eye icon is visible during hover */
 .img-container:hover .logo-container {
     opacity: 1;
     transition: opacity 0.3s;
   }
   
+  /* Cyan hover on the image is visible */
   .img-container:hover .image-link::before {
     content: "";
     position: absolute;
