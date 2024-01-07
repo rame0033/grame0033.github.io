@@ -133,20 +133,20 @@ a:hover {
 }
 
 /* Eye icon is visible during hover */
-.img-container:hover .logo-container {
-    opacity: 1;
+.img-container:hover .logo-container { /*The selector .img-container:hover targets the .logo-container when the .img-container is being hovered over. */
+    opacity: 1;  /* sets the opacity of the .logo-container to 1, making it fully visible. */
     transition: opacity 0.3s;
   }
   
   /* Cyan hover on the image is visible */
-  .img-container:hover .image-link::before {
-    content: "";
-    position: absolute;
-    top: 0;
+  .img-container:hover .image-link::before {  /*.img-container:hover targets the pseudo-element ::before of .image-link when the .img-container is being hovered over. The ::before pseudo-element in CSS is used to insert content before the actual content of an element. It's often used for decorative purposes or to add additional styling. */
+    content: "";  /*is used to generate an empty content box for the pseudo-element.*/
+    position: absolute; 
     left: 0;
+    top: 0; /*top, and left properties are used to position the pseudo-element to cover the entire area of the .image-link.*/
     width: 100%;
-    height: 100%;
+    height: 100%; /*ensure that the pseudo-element covers the entire width and height of the .image-link*/
     background-color: hsl(178, 100%, 50%);
-    opacity: 50%;
+    opacity: 50%; /* sets the opacity of the pseudo-element to 50%, creating a semi-transparent effect.*/
     border-radius: 10px;
   }
