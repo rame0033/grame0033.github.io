@@ -79,6 +79,7 @@ a {
     padding: 20px 90px;
     border-radius: 50px;
     box-shadow: -2px 0px 22px #4f2776;
+    transition: all 0.2s ease-out;
 }
 
 .btn {
