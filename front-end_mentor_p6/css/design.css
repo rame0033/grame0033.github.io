@@ -68,7 +68,7 @@ p {
 .card1 {
     background-image: url(../images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: top 5% right 5%;
     background-color: hsl(263, 55%, 52%);
     padding: 40px;
     border-radius: 1rem;
