@@ -2,15 +2,17 @@
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     margin: 0 auto;
-    max-width: 1200px;
-    padding: 5rem 0;
+    max-width: 1320px;
+    padding: 5rem 0 2rem;
     background-color: #0000000f;
+    display: grid;
+    grid-template-rows: repeat(2,auto);
 }
 
 main {
     display: grid;
-    gap: 2%;
-    padding:0 1rem;
+    gap: 1%;
+    padding:0 1rem 6rem;
 }
 
 h1 {
@@ -25,6 +27,12 @@ h1 {
 .card4 h1,
 .card4 h2 {
     color: white;
+    line-height: 1.7rem;
+}
+
+.card3 h1,
+.card5 h1{
+    line-height: 1.7rem;
 }
 
 h2 {
@@ -99,7 +107,6 @@ p {
 }
 
 footer{
-    margin-top: 11rem;
     text-align: center;
 }
 
@@ -107,6 +114,7 @@ footer{
     main {
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: repeat(2,auto);
+        gap: 2%;
         grid-template-areas: 
         "ser1 ser1 ser2 ser5"
         "ser3 ser4 ser4 ser5"
