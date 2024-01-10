@@ -1,0 +1,199 @@
+/* Global styles */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.25em;
+    line-height: 2rem;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
+}
+
+/* Styling the main header */
+header {
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 7 0vh;
+}
+
+.masthead{
+    padding: 2rem 1rem;
+}
+/* Styling the header button */
+
+.btn1 {
+    width: 22%;
+    border-radius: 50px;
+    box-shadow: 4px 10px 46px hsl(0, 0%, 81%);
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: -5px;
+}
+
+.btn1 a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: hsl(192, 100%, 9%);
+}
+
+/* Applying flexible wrap to the logo header */
+.headerwrap {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.9rem 0;
+}
+
+.logo-wrap {
+    flex-grow: 1;
+}
+
+.logo-wrap img {
+    width: 30%;
+    margin-top: 1rem;
+}
+
+/* Styling the main banner */
+.banner {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.imgbanner img {
+    width: 100%;
+}
+
+.txtbanner {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.txtbanner p {
+    padding: 1.5rem 0;
+}
+
+/* Styling the "Started" CTA */
+
+.btn {
+    width: 45%;
+    border-radius: 50px;
+    box-shadow: 4px 10px 46px hsl(0, 0%, 81%);
+    background-color: hsl(322, 100%, 66%);
+    text-align: center;
+    padding: 1rem;
+    margin-top: -5px;
+}
+
+.btn a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.txtbanner .btn{
+    display: flex;
+    align-self: center;
+}
+
+.txtbanner .btn a{
+    margin: 0 auto;
+}
+
+/* Gap between the text and image wrap */
+.imgbanner{
+    padding-top:1.5rem;
+}
+
+main{
+    display: grid;
+    padding:2rem 1rem;
+    max-width: 1200px;
+    margin: 5rem auto 12rem;
+}
+
+/* Setting width for the card image */
+main img{
+    width:80%;
+    margin:0 10%;
+}
+
+.card1,
+.card2,
+.card3{
+    border-radius:20px;
+    box-shadow: 4px 10px 46px hsl(0, 0%, 81%);
+    display:flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.imgcard{
+    padding:2rem;
+}
+
+.cardtxt{
+    padding:2rem;
+    text-align: center;
+}
+
+/* Styling the commnity CTA */
+.commcard{
+    width:80%;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    margin:-11rem auto 0;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 5px 50px hsl(191.74deg 100% 9.02%);
+    padding: 1rem;
+    z-index: 1;
+    position: relative;
+}
+
+.commcard h2{
+    font-size: 1em;
+    padding-bottom:1.5rem;
+}
+.commcard .btn{
+    width:60%;
+    align-self: center;
+    box-shadow: none;
+}
+
+/* Footer styles */
+footer{
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 10rem;
+    margin-top: -5rem;
+    z-index: 0;
+    color:white;
+}
+
+footer a{
+    color: white;
+    font-family: 'Open Sans';
+    text-decoration: none;
+}
+
+.mainfoot{
+    max-width: 1200px;
+    margin: -3rem auto 0;
+}
