@@ -6,7 +6,7 @@ h1 {
     line-height: 2rem;
 }
 
-h2{
+h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 1.5em;
@@ -22,16 +22,18 @@ header {
     background-image: url(../images/bg-hero-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 7 0vh;
+    height: 70vh;
 }
 
-.masthead{
+.masthead {
     padding: 2rem 1rem;
 }
+
 /* Styling the header button */
 
 .btn1 {
-    width: 22%;
+    width: 100px;
+    height: 20px;
     border-radius: 50px;
     box-shadow: 4px 10px 46px hsl(0, 0%, 81%);
     background-color: white;
@@ -60,7 +62,7 @@ header {
 }
 
 .logo-wrap img {
-    width: 30%;
+    width: 150px;
     margin-top: 1rem;
 }
 
@@ -78,9 +80,10 @@ header {
 }
 
 .txtbanner {
-    display:flex;
+    display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 3rem;
 }
 
 .txtbanner p {
@@ -90,7 +93,7 @@ header {
 /* Styling the "Started" CTA */
 
 .btn {
-    width: 45%;
+    width: 200px;
     border-radius: 50px;
     box-shadow: 4px 10px 46px hsl(0, 0%, 81%);
     background-color: hsl(322, 100%, 66%);
@@ -107,59 +110,59 @@ header {
     text-align: center;
 }
 
-.txtbanner .btn{
+.txtbanner .btn {
     display: flex;
     align-self: center;
 }
 
-.txtbanner .btn a{
+.txtbanner .btn a {
     margin: 0 auto;
 }
 
 /* Gap between the text and image wrap */
-.imgbanner{
-    padding-top:1.5rem;
+.imgbanner {
+    padding-top: 1.5rem;
 }
 
-main{
+main {
     display: grid;
-    padding:2rem 1rem;
+    padding: 2rem 1rem;
     max-width: 1200px;
-    margin: 5rem auto 12rem;
+    margin: 100px auto 200px;
 }
 
 /* Setting width for the card image */
-main img{
-    width:80%;
-    margin:0 10%;
+main img {
+    width: 80%;
+    margin: 0 10%;
 }
 
 .card1,
 .card2,
-.card3{
-    border-radius:20px;
+.card3 {
+    border-radius: 20px;
     box-shadow: 4px 10px 46px hsl(0, 0%, 81%);
-    display:flex;
+    display: flex;
     flex-direction: column;
     margin-top: 10%;
 }
 
-.imgcard{
-    padding:2rem;
+.imgcard {
+    padding: 2rem;
 }
 
-.cardtxt{
-    padding:2rem;
+.cardtxt {
+    padding: 2rem;
     text-align: center;
 }
 
 /* Styling the commnity CTA */
-.commcard{
-    width:80%;
-    display:flex;
-    flex-direction:column;
+.commcard {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin:-11rem auto 0;
+    margin: -11rem auto 0;
     background-color: white;
     border-radius: 20px;
     box-shadow: 4px 5px 50px hsl(191.74deg 100% 9.02%);
@@ -168,32 +171,198 @@ main img{
     position: relative;
 }
 
-.commcard h2{
-    font-size: 1em;
-    padding-bottom:1.5rem;
+.commcard h2 {
+    font-size: 1.5em;
+    padding-bottom: 1.5rem;
+    margin-top: 1rem;
 }
-.commcard .btn{
-    width:60%;
+
+.commcard .btn {
     align-self: center;
     box-shadow: none;
 }
 
 /* Footer styles */
-footer{
+footer {
     background-color: hsl(192, 100%, 9%);
     padding-top: 10rem;
     margin-top: -5rem;
     z-index: 0;
-    color:white;
+    color: white;
 }
 
-footer a{
+footer a {
     color: white;
     font-family: 'Open Sans';
     text-decoration: none;
 }
 
-.mainfoot{
+.mainfoot {
     max-width: 1200px;
     margin: -3rem auto 0;
+    padding: 0 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Transforming logo into mono-white */
+.contactwrap .imgwrap img {
+    filter: grayscale(1) brightness(10);
+    width: 150px;
+}
+
+/* Styling the contact us footer */
+.contactwrap {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.contactwrap p {
+    line-height: 1.5rem;
+    padding-top: 1rem;
+}
+
+.address {
+    text-indent: -0.6em;
+    margin-left: 1.4em;
+    text-align: justify;
+}
+
+.column1,
+.column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.column2 {
+    padding-bottom: 1rem;
+}
+
+.column1 a,
+.column2 a {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+/* Social icons in footer */
+.socials {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    gap: 5%;
+    width: 150px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.socials a {
+    font-size: 1rem;
+    text-align: center;
+    width: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.copywrap {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.copywrap p {
+    line-height: 2rem;
+}
+
+@media screen and (min-width:1000px) {
+
+    .header {
+        background-image: url(../images/bg-hero-desktop.svg);
+        background-size: cover;
+    }
+
+    .masthead {
+        height: 85vh;
+    }
+
+    .banner {
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+
+    .imgbanner {
+        width: 50%;
+    }
+
+    .txtbanner {
+        text-align: left;
+        width: 47%;
+        padding-right: 1rem;
+        margin-top: 5%;
+    }
+
+    .txtbanner .btn {
+        align-self: flex-start;
+    }
+
+    .card1,
+    .card3 {
+        flex-direction: row;
+    }
+
+    .cardtxt h2 {
+        font-size: 2rem;
+    }
+
+    .card1 .cardtxt,
+    .card3 .cardtxt {
+        text-align: right;
+        line-height: 4.5rem;
+        margin-top: 4rem;
+    }
+
+    .card2 {
+        flex-direction: row-reverse;
+    }
+
+    .card2 .cardtxt {
+        text-align: left;
+        line-height: 4.5rem;
+        margin-top: 4rem;
+    }
+
+    .footer{
+        padding-top: 9rem;
+        margin-top: -5rem;
+    }
+
+    .mainfoot{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .contactwrap{
+        width:400px;
+        margin-right:20px;
+    }
+
+    .column1,
+    .column2{
+        margin-right: 10px;
+        margin-top:30px;
+    }
+
+    .socials{
+        margin:7px 0 0;
+    }
+
+    .copywrap{
+        text-align: right;
+        font-size: 0.7em;
+        padding-right: 10%;
+    }
+    
+    .copywrap p {
+        line-height: 1.5em;
+    }
 }
