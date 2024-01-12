@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "mtm6130",
+			"path": ".."
+		},
+		{
+			"name": "Web-Dev-For-Beginners-main",
+			"path": "../../Web-Dev-For-Beginners-main/Web-Dev-For-Beginners-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mtm6130"
+	}
+}
